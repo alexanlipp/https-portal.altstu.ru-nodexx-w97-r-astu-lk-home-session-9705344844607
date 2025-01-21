@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html class="no-js  page-1 app-LK" lang="ru" >
+<head>
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <title>Личный кабинет АлтГТУ</title>
+  <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QSH5GKuw0NsRt-CSz-r2Pp2RfsGZkvB5ZiJdiFLuzMbxdZSQ3GMj1vZROFvmIe2BS1AJS8aZuMJUfvJa6aG-c_FKKkfeHZDLIlmvXRPXtdUn_mCE3VLpv8OWIKkd63fg" charset="UTF-8"></script><base href="/nodexx/w97/" />
+<link rel="stylesheet" href="/i22.2/libraries/oraclejet/12.1.3/css/libs/oj/v12.1.3/redwood/oj-redwood-notag-min.css?v=22.2.0" type="text/css" />
+<link rel="stylesheet" href="/i22.2/app_ui/css/Core.min.css?v=22.2.0" type="text/css" />
+<link rel="stylesheet" href="/i22.2/app_ui/css/Theme-Standard.min.css?v=22.2.0" type="text/css" />
+
+  <link rel="stylesheet" href="/i22.2/libraries/font-apex/2.2.1/css/font-apex.min.css?v=22.2.0" type="text/css" />
+<link rel="stylesheet" href="/i22.2/themes/theme_42/22.2/css/Core.min.css?v=22.2.0" type="text/css" />
+
+  
+  <link rel="stylesheet" href="/i22.2/themes/theme_42/22.2/css/Vita.min.css?v=22.2.0" type="text/css" />
+
+  <link rel="stylesheet" href="r/astu/files/static/v1/astu.min.css?session=7810146882781" type="text/css" />
+<link rel="stylesheet" href="r/astu/1012/files/static/v3087/astu.min.css" type="text/css" />
+
+  <link rel="stylesheet" href="r/astu/1012/files/static/v3087/shedule.min.css" type="text/css" />
+<style type="text/css">
+@media only screen and (min-width: 640px) {
+    #news {
+        display: none;
+    }
+}
+
+h5 {
+    padding-top: 0.5rem;
+    margin-block-start: 0.5rem !important;
+    margin-block-end: 0.5rem !important;
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+}
+
+.a-TMV-body{
+    padding: 0rem 4rem;
+}
+.a-CardView-media.a-CardView-media--background.a-CardView-media--cover{
+    border-radius: 20px;
+    --a-cv-media-overlay-color: rgb(0 100 99 / 62%) !important;
+}
+.t-Form--stretchInputs {
+    width: 100% !important;
+    height: 12rem !important;
+}
+
+.t-HeroRegion-icon {
+    height: var(--ut-hero-region-icon-container-size,5rem);
+}
+
+.t-Region {
+    border-radius: 10px;
+}
+
+#map {
+    border-radius: 10px !important;
+}
+
+td.t-Report-cell{
+    padding: 6px 0 6px 0;
+}
+
+td.t-Report-cell div{
+    padding: 0px 12px 0px 12px;
+}
+
+hr {
+    background-color: #e6e6e6;
+    height: 0.5px;
+    border: 0;  
+}
+
+iframe#map_239185226 {
+    /* border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important; */
+    border-radius: 0.5rem;
+}
+    
+</style>
+
+  <link rel="apple-touch-icon" href="r/astu/1012/files/static/v3087/icons/app-icon-192.png" /><link rel="icon" href="r/astu/1012/files/static/v3087/icons/app-icon-32.png" />
+  <link rel="canonical" link="https://portal.altstu.ru/lk"/>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="/i/astu/startup.png"> 
+<link rel="apple-touch-startup-image" sizes="828x1792" href="/i/astu/startup.png">
+
+<link rel="shortcut icon" href="/i/astu/favicon.ico">
+<link rel="apple-touch-startup-image" href="/i/astu/mi180.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/i/astu/mi57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/i/astu/mi60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/i/astu/mi72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/i/astu/mi76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/i/astu/mi114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/i/astu/mi120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/i/astu/mi144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/i/astu/mi152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/i/astu/mi180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/i/astu/i192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/i/astu/i32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/i/astu/i96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/i/astu/i16.png">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta http-equiv="Cache-Control" content="no-cache" /><meta name="theme-color" content="&#x23;00a19a" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="&#x3C;span&#x20;class&#x3D;&#x22;astu-normal-logo-text&#x22;&#x3E;&#x041B;&#x0438;&#x0447;&#x043D;&#x044B;&#x0439;&#x20;&#x043A;&#x0430;&#x0431;&#x0438;&#x043D;&#x0435;&#x0442;&#x20;&#x0410;&#x043B;&#x0442;&#x0413;&#x0422;&#x0423;&#x3C;&#x2F;span&#x3E;&#x3C;span&#x20;class&#x3D;&#x22;astu-small-logo-text&#x22;&#x3E;&#x041B;&#x041A;&#x20;&#x0410;&#x043B;&#x0442;&#x0413;&#x0422;&#x0423;&#x3C;&#x2F;span&#x3E;" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<link rel="manifest" href="&#x2F;nodexx&#x2F;w97&#x2F;r&#x2F;astu&#x2F;lk&#x2F;manifest.json&#x3F;v&#x3D;22.2.0-18987188566&#x26;lang&#x3D;ru" crossorigin="use-credentials" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body class="t-PageBody t-PageBody--hideLeft t-PageBody--hideActions no-anim t-PageTemplate--standard   t-PageBody--noContentPadding apex-side-nav apex-icons-fontapex apex-theme-light"   id="t_PageBody">
+<a href="#main" id="t_Body_skipToContent">Skip to Main Content</a>
+<form action="wwv_flow.accept?p_context=lk/home/7810146882781" method="post" name="wwv_flow" id="wwvFlowForm" data-oj-binding-provider="none" novalidate  autocomplete="off">
+<input type="hidden" name="p_flow_id" value="1012" id="pFlowId" /><input type="hidden" name="p_flow_step_id" value="1" id="pFlowStepId" /><input type="hidden" name="p_instance" value="7810146882781" id="pInstance" /><input type="hidden" name="p_page_submission_id" value="187167382683836697729150570428464765469" id="pPageSubmissionId" /><input type="hidden" name="p_request" value="" id="pRequest" /><input type="hidden" name="p_reload_on_submit" value="S" id="pReloadOnSubmit" /><input type="hidden" value="lk&#x2F;home&#x2F;7810146882781" id="pContext" /><input type="hidden" value="187167382683836697729150570428464765469" id="pSalt" />
+<header class="t-Header" id="t_Header" role="banner">
+  
+  <div class="t-Header-branding">
+    <div class="t-Header-controls">
+      <button class="t-Button t-Button--icon t-Button--header t-Button--headerTree" aria-label="Main Navigation" title="Main Navigation" id="t_Button_navControl" type="button"><span class="t-Header-controlsIcon" aria-hidden="true"></span></button>
+    </div>
+    <div class="t-Header-logo">
+      <a href="&#x2F;nodexx&#x2F;w97&#x2F;r&#x2F;astu&#x2F;lk&#x2F;home?session=7810146882781" class="t-Header-logo-link"><span class="apex-logo-text"><span class="astu-normal-logo-text">Личный кабинет АлтГТУ</span><span class="astu-small-logo-text">ЛК АлтГТУ</span></span></a>
+      
+    </div>
+    <div class="t-Header-navBar">
+      <div class="t-Header-navBar--start"></div>
+      <div class="t-Header-navBar--center"><ul class="t-NavigationBar " id="23475875914394494"><li class="t-NavigationBar-item a-pwaInstall">
+  <a class="t-Button t-Button--icon t-Button--header t-Button--navBar" href="#action$a-pwa-install" title="" target="">
+    <span class="t-Icon fa&#x20;fa-cloud-download" aria-hidden="true" ></span><span class="t-Button-label">Установить приложение</span><span class="t-Button-badge"></span>
+  </a>
+</li><li class="t-NavigationBar-item ">
+  <a class="t-Button t-Button--icon t-Button--header t-Button--navBar" href="/nodexx/w97/r/astu/lms/home?session=7810146882781" title="Система электронного обучения АлтГТУ" target="">
+    <span class="t-Icon fa&#x20;fa-lightbulb-o" aria-hidden="true" ></span><span class="t-Button-label">LMS</span><span class="t-Button-badge">7</span>
+  </a>
+</li><li class="t-NavigationBar-item ">
+  <a class="t-Button t-Button--icon t-Button--header t-Button--navBar" href="/nodexx/w97/r/astu/portal/home?session=7810146882781" title="Портал АлтГТУ" target="">
+    <span class="t-Icon fa&#x20;fa-home" aria-hidden="true" ></span><span class="t-Button-label">Портал</span><span class="t-Button-badge"></span>
+  </a>
+</li><li class="t-NavigationBar-item ">
+  <a class="t-Button t-Button--icon t-Button--header t-Button--navBar" href="javascript:apex.theme42.dialog('\u002Fnodexx\u002Fw97\u002Fr\u002Fastu\u002Flk\u002Ffeedback?p10010_page_id=1\u0026clear=10010\u0026session=7810146882781\u0026cs=31T19goyvlw8zn_zVo8vPChzCUaQ4cSYlKMfrHACJkwJdmaKhmNOPVeJc_WwxFPCFEVFLWL82zICd7IfuVScSDw\u0026dialogCs=E7gPCy0iWXp7fwN4XnasCt-DyyxzTXiYhuRypBYDkSSnuSbON7j58FREAxm1Ear_LhEggMyMz5M3CQyrxSV4_Q',{title:'\u041E\u0431\u0440\u0430\u0442\u043D\u0430\u044F \u0441\u0432\u044F\u0437\u044C ',h:'auto',w:'720',mxw:'960',modal:true,dialog:null,dlgCls:'t-Dialog-page--standard '+''},'',apex.gPageContext$)" title="" target="">
+    <span class="t-Icon fa&#x20;fa-bullhorn" aria-hidden="true" ></span><span class="t-Button-label">Обратная связь</span><span class="t-Button-badge"></span>
+  </a>
+</li><li class="t-NavigationBar-item ">
+  <a class="t-Button t-Button--icon t-Button--header t-Button--navBar" href="javascript:apex.theme42.dialog('\u002Fnodexx\u002Fw97\u002Fr\u002Fastu\u002Flk\u002F4?p4_src_app_id=1012\u0026clear=4\u0026session=7810146882781\u0026cs=3otR7t_AwI32ETD_023O162z4zHuD0oEuslfoXoiqKGLzQ5W4ohH2ZStyHeRbuuf13202u94iH51STL7HxTpxaA\u0026dialogCs=QikQxdbutSAc87e67zoB59NmSO3GxDfiwQIylcUpt78-4VIZIGq9rJUECbOASkfle1IItA3jXdZCPycbmEclKQ',{title:'\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438',h:'auto',w:'720',mxw:'960',modal:true,dialog:null,dlgCls:'t-Dialog-page--standard '+''},'',apex.gPageContext$)" title="Текущий пользователь" target="">
+    <span class="t-Icon fa&#x20;fa-user" aria-hidden="true" ></span><span class="t-Button-label">Липпа А.Д.</span><span class="t-Button-badge">ИВТ-21</span>
+  </a>
+</li><li class="t-NavigationBar-item ">
+  <a class="t-Button t-Button--icon t-Button--header t-Button--navBar" href="apex_authentication.logout?p_app_id=1012&p_session_id=7810146882781" title="Выйти из аккаунта Единой информационной системы университета" target="">
+    <span class="t-Icon fa&#x20;fa-sign-out" aria-hidden="true" ></span><span class="t-Button-label">Выйти</span><span class="t-Button-badge"></span>
+  </a>
+</li></ul></div>
+      <div class="t-Header-navBar--end"></div>
+    </div>
+  </div>
+  <div class="t-Header-nav"></div>
+</header>
+<div class="t-Body">
+  <div class="t-Body-nav" id="t_Body_nav" role="navigation" aria-label="Main Navigation">
+  <div class="a-TreeView t-TreeNav js-navCollapsed--hidden t-TreeNav--classic" id="t_TreeNav" data-id="1_tree" aria-label="Main Navigation">
+    <ul>
+<li data-current="true" data-id="" data-disabled="" data-icon="fa&#x20;fa-home" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/home?session=7810146882781" title="" style="display: none" target="">Главная</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-home"></span>
+      <span class="a-TreeView-label">Главная</span>
+    </div>
+  </div>
+</li>
+<li data-current="false" data-id="chatmenu" data-disabled="" data-icon="fa&#x20;fa-comments-o&#x20;data-pr-msg" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/messenger?session=7810146882781" title="" style="display: none" target="">Мессенджер [66]</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-comments-o&#x20;data-pr-msg"></span>
+      <span class="a-TreeView-label">Мессенджер [66]</span>
+    </div>
+  </div>
+</li><li data-current="false" data-id="" data-disabled="" data-icon="fa&#x20;fa-files-o" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/documents?session=7810146882781" title="" style="display: none" target="">Документооборот []</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-files-o"></span>
+      <span class="a-TreeView-label">Документооборот []</span>
+    </div>
+  </div>
+</li><li data-current="false" data-id="" data-disabled="" data-icon="fa&#x20;fa-certificate" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/training?session=7810146882781" title="" style="display: none" target="">Повышение квалификации</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-certificate"></span>
+      <span class="a-TreeView-label">Повышение квалификации</span>
+    </div>
+  </div>
+</li><li data-current="false" data-id="" data-disabled="" data-icon="fa&#x20;fa-list-alt" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/rasp-std?session=7810146882781" title="" style="display: none" target="">Расписание студента</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-list-alt"></span>
+      <span class="a-TreeView-label">Расписание студента</span>
+    </div>
+  </div>
+</li><li data-current="false" data-id="" data-disabled="" data-icon="fa&#x20;fa-user" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/portfolio?session=7810146882781" title="" style="display: none" target="">Портфолио студента</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-user"></span>
+      <span class="a-TreeView-label">Портфолио студента</span>
+    </div>
+  </div>
+</li><li data-current="false" data-id="" data-disabled="" data-icon="fa&#x20;fa-user-chart" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/rating?session=7810146882781" title="" style="display: none" target="">Успеваемость студента</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-user-chart"></span>
+      <span class="a-TreeView-label">Успеваемость студента</span>
+    </div>
+  </div>
+</li><li data-current="false" data-id="" data-disabled="" data-icon="fa&#x20;fa-inbox" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/list-of-requests?session=7810146882781" title="" style="display: none" target="">Заявки на справки</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-inbox"></span>
+      <span class="a-TreeView-label">Заявки на справки</span>
+    </div>
+  </div>
+</li><li data-current="false" data-id="" data-disabled="" data-icon="fa&#x20;fa-graduation-cap" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/uchplan?session=7810146882781" title="" style="display: none" target="">Учебный процесс</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-graduation-cap"></span>
+      <span class="a-TreeView-label">Учебный процесс</span>
+    </div>
+  </div>
+</li><li data-current="false" data-id="" data-disabled="" data-icon="fa&#x20;fa-briefcase" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/vacancy?session=7810146882781" title="" style="display: none" target="">Вакансии</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-briefcase"></span>
+      <span class="a-TreeView-label">Вакансии</span>
+    </div>
+  </div>
+</li><li data-current="false" data-id="" data-disabled="" data-icon="fa&#x20;fa-cards" data-shortcut="">
+  <a href="/nodexx/w97/r/astu/lk/other-apps?session=7810146882781" title="" style="display: none" target="">Другие приложения АлтГТУ</a>
+  <div class="a-TreeView-node a-TreeView-node--topLevel" aria-hidden="true">
+    <div role="none" class="a-TreeView-row"></div>
+    <div role="none" class="a-TreeView-content">
+      <span class="fa fa-file-o fa&#x20;fa-cards"></span>
+      <span class="a-TreeView-label">Другие приложения АлтГТУ</span>
+    </div>
+  </div>
+</li>    </ul>
+  </div>
+</div>
+<script>
+(() => {
+  const pref = "ORA_WWV_apex.toggleCore.nav.1012.preferenceForExpanded",
+        nav  = document.getElementById('t_TreeNav').classList,
+        body = document.getElementById('t_PageBody');
+  if ( !sessionStorage.getItem( pref ) ) { sessionStorage.setItem( pref, !nav.contains('js-defaultCollapsed') ); }
+  if ( nav.contains('js-navCollapsed--default') ) {
+      body?.classList.add('js-navCollapsed--icons');
+      if ( sessionStorage.getItem( pref ) === "false" ) { body?.classList.add('js-navCollapsed'); }
+  }
+  if ( sessionStorage.getItem( pref ) === "true" && window.matchMedia("(min-width: " + getComputedStyle(document.documentElement).getPropertyValue("--js-mq-lg") + ")").matches) { body?.classList.add('js-navExpanded'); }
+  for (const label of document.querySelectorAll(".a-TreeView .a-TreeView-label")) {
+      label.textContent = label.textContent.replaceAll(/\[(.*?)\]/ig, '');
+  }
+})();
+</script>
+  <div class="t-Body-main">
+    <div class="t-Body-title" id="t_Body_title"><div class="t-HeroRegion " id="R396922298792831985"  role="region" aria-labelledby="R396922298792831985_heading" >
+  <div class="t-HeroRegion-top">
+    <div class="t-HeroRegion-wrap">
+      <div class="t-HeroRegion-col t-HeroRegion-col--left"><span class="t-HeroRegion-icon t-Icon app-icon"></span></div>
+      <div class="t-HeroRegion-col t-HeroRegion-col--content">
+        <h1 id="R396922298792831985_heading" class="t-HeroRegion-title" data-apex-heading>Личный кабинет АлтГТУ</h1>
+        Добрый вечер, Александр Дмитриевич!
+      </div>
+      <div class="t-HeroRegion-col t-HeroRegion-col--right"><div class="t-HeroRegion-form"></div><div class="t-HeroRegion-buttons"></div></div>
+    </div>
+  </div>
+  <div class="t-HeroRegion-bottom"></div>
+</div>
+</div>
+    <div class="t-Body-content" id="t_Body_content">
+      <main id="main" class="t-Body-mainContent">
+        <span id="APEX_SUCCESS_MESSAGE" data-template-id="23307832561394047_S" class="apex-page-success u-hidden"></span><span id="APEX_ERROR_MESSAGE" data-template-id="23307832561394047_E" class="apex-page-error u-hidden"></span>
+        <div class="t-Body-fullContent"></div>
+        <div class="t-Body-contentInner"><div class="container">
+<div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" ><div id="R6307801321779326" class=""  ><input type="hidden" name="P0_TRACKING" id="P0_TRACKING" value=""><input type="hidden" data-for="P0_TRACKING" value="KfJyAhhvOzfLahwENxbLeeEudpjXRpWwDUzcRkRjUo217IvmyVu2AUOIqzMySUOomy0w_Px_G3wTiOjMYpcmXA"><input type="hidden" name="P1_WELCOME_TEXT" id="P1_WELCOME_TEXT" value="Добрый вечер"><input type="hidden" data-for="P1_WELCOME_TEXT" value="CpAE8mnSRkB3yB7EAwBpegjgbsztXon_6CIxLy2oI_G177IeiWIoo6Jgda7KCwxC5HMDGhlBSUjfmvC_QcAmdw"><input type="hidden" name="P1_CNT_DOLG" id="P1_CNT_DOLG" value="7"><input type="hidden" data-for="P1_CNT_DOLG" value="-FX-R6_cMUGNRAPBnOw2SQT__fxFyN6qxSqxLA4osmjoeDKby0RlEX_5bjXfceg40S2olwdatW03K7e9ty75KA"><input type="hidden" name="P1_PUBLIC_KEY" id="P1_PUBLIC_KEY" value="BOPH567j_3THejPWHHvvCBEGDkpE1ldHsoRAPQ1YgHjjYMI8jPe8gRcpy45HjmiY8q119Jnc4_bieCfJFy5H_mU"><input type="hidden" data-for="P1_PUBLIC_KEY" value="dNSFfjqfZImbn2XTsGnSI69gWgI0BLaOzKJ6PmaPzWUu_LxjbP3S3cuHI6NPHe63HnU5X1YkkaML7bG8ZBYuWQ"><input type="hidden" name="P1_D_ATT" id="P1_D_ATT" value="25.11.2024"><input type="hidden" data-for="P1_D_ATT" value="qs2mjX0IU_Zhl-ZcXBiEYrRmS_ou-rVGU-cM-5DgQW-1nxx6CoxIQ3dbrcIhx89LkV6ksBd77XNSGzFVgGSKdw"><input type="hidden" name="P1_ID_ATT" id="P1_ID_ATT" value="000000001913"><input type="hidden" data-for="P1_ID_ATT" value="_7HlRvCGdSK2ttUd45MZp5-Fk_ktWoVDGYlMRibCfvtCF1Bz8qX2RxgAGwGm4L-VUm5P90pDZQ443O2fuDvn0g"><input type="hidden" name="P1_D_SESS" id="P1_D_SESS" value="24.12.2024-26.01.2025"><input type="hidden" data-for="P1_D_SESS" value="2hXE4_Pb_izdnjbCBqqP7s86MS93E4lCCXj9ltHXxCbQGayWpbTuzRm_yRvDR5ryjDmdkYE6RflKJz8QVO4DKQ"><input type="hidden" name="P1_ID_SESS" id="P1_ID_SESS" value="00000000003085"><input type="hidden" data-for="P1_ID_SESS" value="8QRpLMhQ669s83ERTq8VlmfiZcGO2C5agk8W8Il4RNIwjErRopcFNwm-uuFk-cHkK8VzdLamGMFPQ1kCblgG8Q"><input type="hidden" name="P1_ID_PRED_ATT" id="P1_ID_PRED_ATT" value=""><input type="hidden" data-for="P1_ID_PRED_ATT" value="38heNiHYFPZlngVVbScHVpiCvHRxcT0pjOEKAupWOHaYnV10CCdiWtkvX3qnUFFzLwtw6ci28-em4GyBMR8rbQ"><input type="hidden" name="P1_PRED_ATT_NAME" id="P1_PRED_ATT_NAME" value=""><input type="hidden" data-for="P1_PRED_ATT_NAME" value="E6il3poR6kGWd5u5s8wvoVQP-AiI_NiubfpCYi6fprFv5YNe_A2T7oqDOkVYfNDyGjU368B14LvVfbTgYcKZvw"><input type="hidden" name="P1_ID_PRED_ATT_DATN" id="P1_ID_PRED_ATT_DATN" value=""><input type="hidden" data-for="P1_ID_PRED_ATT_DATN" value="5qOl4GxaWGh_FtEYciFl13MrWj3--aDaEQO947rjHPkd_Y2txhGm91YlTdSzOzpnwn4xuh1DPB4bPOrwqgwXAQ"><input type="hidden" name="P1_ID_PRED_ATT_DATK" id="P1_ID_PRED_ATT_DATK" value=""><input type="hidden" data-for="P1_ID_PRED_ATT_DATK" value="BSxzMA1JbqasB_PEBqsAMVLYcLcUhbEVPd-ZyD1inaeh2Xzk3sq-fbmXqLFzB3iEGZofgrQvN7s9dPJnsLaEBA"><input type="hidden" name="P1_UCH_POR_D_S" id="P1_UCH_POR_D_S" value="20.01.2025 15:00"><input type="hidden" data-for="P1_UCH_POR_D_S" value="_C_s2RRDUO4DKiUonsc6VRLjoWXkMEwOE1fk4sZiv-0_LxQKZ-UnI7zxMqeQUKyeLtXGh_fNJDy1t_94iDTyvg"><input type="hidden" name="P1_UCH_POR_D_E" id="P1_UCH_POR_D_E" value="12.02.2025 00:00"><input type="hidden" data-for="P1_UCH_POR_D_E" value="YipHrAhDwhBljAyf8ADeTz19GxHv8Z2urzNvBQcdL8WY-NHEAm3bA8Mw4MbPPTe4kAIS6pbGfDmRHUBtZNeKcg"><input type="hidden" name="P1_SESS_IT_R" id="P1_SESS_IT_R" value=""><input type="hidden" data-for="P1_SESS_IT_R" value="Yu2cHPu6j7rOm7c1LCcaJbeGjg4qv7u5vlyEjPjqBPmRNMUVVMdZ_ldankHEUhzVeAgXdzLBTomALdpEoDVOGg"><input type="hidden" name="P1_ATTS_IT_R" id="P1_ATTS_IT_R" value="28"><input type="hidden" data-for="P1_ATTS_IT_R" value="Sekw4yIrcVn8cB9bSFjoQdre2BJX-_ZpG29_1u0UDxHztd2-j0pgn4ZPYiV6OZ9pW78ykZFucirHAqrBxnpqug"><input type="hidden" name="P1_KURSACH" id="P1_KURSACH" value=""><input type="hidden" data-for="P1_KURSACH" value="hi07UBbyDCLQ8qrxrnYBrp4qaLe2GRnjbXYRWicgyHlEHz-gqVyntSind39HK_VbqINxDngf5rTCUh9YZvL6hw"></div></div>
+</div><div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" ><div class="t-Alert t-Alert--colorBG t-Alert--horizontal t-Alert--defaultIcons t-Alert--warning margin-top-md margin-bottom-none margin-left-md margin-right-md" id="R996855029790197725"  role="region" aria-label="&#x0412;&#x044B;&#x0431;&#x0435;&#x0440;&#x0438;&#x0442;&#x0435;&#x20;&#x044D;&#x043B;&#x0435;&#x043A;&#x0442;&#x0438;&#x0432;&#x043D;&#x044B;&#x0435;&#x20;&#x0434;&#x0438;&#x0441;&#x0446;&#x0438;&#x043F;&#x043B;&#x0438;&#x043D;&#x044B;&#x20;&#x28;&#x043A;&#x0443;&#x0440;&#x0441;&#x044B;&#x20;&#x043F;&#x043E;&#x20;&#x0432;&#x044B;&#x0431;&#x043E;&#x0440;&#x0443;&#x29;&#x20;&#x3A;&#x20;20.01.2025&#x20;15&#x3A;00&#x20;&#x26;mdash&#x3B;&#x20;12.02.2025&#x20;00&#x3A;00" >
+  <div class="t-Alert-wrap">
+    <div class="t-Alert-icon">
+      <span class="t-Icon " aria-hidden="true"></span>
+    </div>
+    <div class="t-Alert-content">
+      <div class="t-Alert-header">
+        <h2 class="t-Alert-title" id="R996855029790197725_heading" data-apex-heading>Выберите элективные дисциплины (курсы по выбору) : 20.01.2025 15:00 &mdash; 12.02.2025 00:00</h2>
+      </div>
+      <div class="t-Alert-body"></div>
+    </div>
+    <div class="t-Alert-buttons"><button class="t-Button t-Button--icon js-ignoreChange&#x20;t-Button--mobileHideLabel&#x20;t-Button--warning&#x20;t-Button--iconLeft"  onclick="apex.navigation.redirect(&#x27;\u002Fnodexx\u002Fw97\u002Fr\u002Fastu\u002Flk\u002Fview-dis-dv-choice?clear=154\u0026session=7810146882781\u0026cs=3nr54u8xv0zr9ZBToQEoOLNQ_faEuIOIt8JfKmI81IrcaZOZSCvjK9LO31k93yXxNtk-wxKwggPtjmVIIknBmAA&#x27;);" type="button" id="B996855191801197726"><span class="t-Icon t-Icon--left fa&#x20;fa-external-link-square" aria-hidden="true"></span><span class="t-Button-label">Перейти к выбору</span><span class="t-Icon t-Icon--right fa&#x20;fa-external-link-square" aria-hidden="true"></span></button></div>
+  </div>
+</div></div>
+</div><div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" ><div class="t-Region t-Region--noPadding t-Region--removeHeader js-removeLandmark t-Region--scrollBody margin-top-md margin-bottom-none margin-left-md margin-right-md apex-tabs-region" id="R125559589085525127"  role="region" aria-label="&#x0420;&#x0430;&#x0441;&#x043F;&#x0438;&#x0441;&#x0430;&#x043D;&#x0438;&#x0435;" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R125559589085525127_heading" data-apex-heading>Расписание</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <div class="apex-rds-container"><ul id="125559589085525127_RDS" class="apex-rds is-disabled"><li class="apex-rds-item apex-rds-first" id="R313437783750318829_tab"><a href="#R313437783750318829"><span>Сегодня</span></a></li><li class="apex-rds-item apex-rds-last" id="R313437871748318830_tab"><a href="#R313437871748318830"><span>Завтра</span></a></li></ul></div><script>( () => {const activeTabKey = "ORA_WWV_apex.apexTabs.1012.1.R125559589085525127.activeTab";let activeTabId = sessionStorage.getItem( activeTabKey );document.querySelector( activeTabId + "_tab" )?.classList.add( "apex-rds-selected" );if ( activeTabId !== "#SHOW_ALL" ) {const styleEl = document.createElement( "style" );styleEl.id = "apex-rds-region-style";document.head.appendChild( styleEl );const styleSheet = styleEl.sheet;styleSheet.insertRule( ".apex-rds-region:not(.apex-rds-element-selected) { display: none; }" )}})();</script>
+     <div class="container">
+<div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" ><div class="t-Region t-Region--removeHeader js-removeLandmark t-Region--noUI t-Region--scrollBody margin-bottom-none apex-rds-region" id="R313437783750318829"  role="region" aria-label="&#x0421;&#x0435;&#x0433;&#x043E;&#x0434;&#x043D;&#x044F;" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R313437783750318829_heading" data-apex-heading>Сегодня</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <div class="container">
+<div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" ><div class="t-Region t-Region--noPadding t-Region--removeHeader js-removeLandmark t-Region--noBorder t-Region--scrollBody margin-bottom-none" id="R1470975043150996217"  role="region" aria-label="&#x0420;&#x0430;&#x0441;&#x043F;&#x0438;&#x0441;&#x0430;&#x043D;&#x0438;&#x0435;&#x20;&#x043D;&#x0430;&#x20;&#x0441;&#x0435;&#x0433;&#x043E;&#x0434;&#x043D;&#x044F;" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R1470975043150996217_heading" data-apex-heading>Расписание на сегодня</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <a-dynamic-content region-id="R1470975043150996217" ajax-identifier="UkVHSU9OIFRZUEV-fjE0NzA5NzUwNDMxNTA5OTYyMTc&#x2F;8zSv0nGwQ2u3f_cMyD5_ltjhiemf2fAwKMyQfxCPUx5XWsZzDBsRdHdpWRBtrhpvGJfuNxtxUaAhNlh65RJmTA" >
+<div class="shd-container"><h5>Пар нет, либо расписание неизвестно.</h5></div></a-dynamic-content>
+
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div><div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" ><div class="t-Region t-Region--noPadding t-Region--removeHeader js-removeLandmark t-Region--noBorder t-Region--scrollBody margin-bottom-none apex-rds-region" id="R313437871748318830"  role="region" aria-label="&#x0417;&#x0430;&#x0432;&#x0442;&#x0440;&#x0430;" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R313437871748318830_heading" data-apex-heading>Завтра</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     
+     <div class="container">
+<div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" ><div class="t-Region t-Region--noPadding t-Region--removeHeader js-removeLandmark t-Region--noBorder t-Region--scrollBody margin-bottom-none" id="R1429743118353686937"  role="region" aria-label="&#x0420;&#x0430;&#x0441;&#x043F;&#x0438;&#x0441;&#x0430;&#x043D;&#x0438;&#x0435;&#x20;&#x043D;&#x0430;&#x20;&#x0437;&#x0430;&#x0432;&#x0442;&#x0440;&#x0430;" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R1429743118353686937_heading" data-apex-heading>Расписание на завтра</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <a-dynamic-content region-id="R1429743118353686937" ajax-identifier="UkVHSU9OIFRZUEV-fjE0Mjk3NDMxMTgzNTM2ODY5Mzc&#x2F;mxgoR3ez4L4fawZS9bnmquz28OdLlePFHDiaIS5T9AfLB-vkCPNDSI6vWeOPPPQX0rP0TfKUKqcrIb7ANtOB8Q" >
+<div class="shd-container"><h5>Пар нет, либо расписание неизвестно.</h5></div></a-dynamic-content>
+
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div><div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" ><div class="t-Region t-Region--noPadding t-Region--scrollBody margin-top-md margin-bottom-none margin-left-md margin-right-md" id="R180402444362038724"  role="region" aria-label="&#x0417;&#x0430;&#x0434;&#x043E;&#x043B;&#x0436;&#x0435;&#x043D;&#x043D;&#x043E;&#x0441;&#x0442;&#x0438;&#x20;&#x043F;&#x043E;&#x20;&#x0434;&#x0438;&#x0441;&#x0446;&#x0438;&#x043F;&#x043B;&#x0438;&#x043D;&#x0430;&#x043C;&#x20;7" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    
+
+
+<li class="a-IRR-controls-item a-IRR-controls-item--controlBreak" aria-labelledby="control_text_UCH_YEAR" role="region"><span class="a-IRR-controls-cell"><input class="a-IRR-controlsCheckbox" data-setting="break" data-break-column="UCH_YEAR" aria-label="Блок" aria-describedby="control_text_UCH_YEAR" type="checkbox" id="control_UCH_YEAR" checked="checked" /><label for="control_UCH_YEAR" aria-hidden="true" class="a-IRR-controlsCheckboxLabel"></label></span><span class="a-IRR-controls-cell"><span class="a-Icon a-IRR-controlsIcon icon-irr-control-break" aria-hidden="true"></span></span><span class="a-IRR-controls-cell a-IRR-controls-cell--label"><button type="button" aria-describedby="control_text_UCH_YEAR" aria-controls="control_UCH_YEAR" class="a-IRR-button--edit a-IRR-controlsLabel" data-setting="break" data-break-column="UCH_YEAR"><span aria-hidden="true" id="control_text_UCH_YEAR">Блок: Учебный год</span><span class="u-vh">Edit Control Break</span></button></span><span class="a-IRR-controls-cell a-IRR-controls-cell--remove"><button class="a-Button a-IRR-button a-Button--noUI a-IRR-button--remove" aria-label="&#x0423;&#x0434;&#x0430;&#x043B;&#x0438;&#x0442;&#x044C;&#x20;&#x0440;&#x0430;&#x0437;&#x0431;&#x0438;&#x0435;&#x043D;&#x0438;&#x0435;&#x20;&#x043D;&#x0430;&#x20;&#x0431;&#x043B;&#x043E;&#x043A;&#x0438;" aria-describedby="control_text_UCH_YEAR" aria-controls="control_UCH_YEAR" aria-describedby="control_text_UCH_YEAR" type="button" data-setting="break" data-break-column="UCH_YEAR"><span aria-hidden="true" class="a-Icon icon-remove"></span><span class="u-vh"">Удалить разбиение на блоки</span></button></span></li>
+
+</ul>
+</div><div class="a-IRR-reportSummaryContainer" id="R431200570104976897_control_panel_summary" style="display: none;"><ul class="a-IRR-reportSummary"><li class="a-IRR-reportSummary-item a-IRR-reportSummary-item--controlBreak"><a href="#" class="a-IRR-reportSummary-label" data-setting="break"><span class="a-IRR-reportSummary-icon" aria-label="&#x0411;&#x043B;&#x043E;&#x043A;" role="img"><span class="a-Icon icon-irr-control-break"></span></span><span class="a-IRR-reportSummary-value">Учебный год</span></a></li></ul></div></div><style id="R431200570104976897_worksheet_css" type="text/css">
+</style>
+<div role="region" aria-label="Chart&#x20;view&#x20;of&#x20;debt" id="R431200570104976897_chart" class="a-IRR-chartView"></div><div role="region" aria-label="Group&#x20;by&#x20;view&#x20;of&#x20;debt" id="R431200570104976897_group_by" class="a-IRR-groupByView"></div><div role="region" aria-label="Pivot&#x20;view&#x20;of&#x20;debt" id="R431200570104976897_pivot" class="a-IRR-pivotView"></div><div role="region" aria-label="Data&#x20;view&#x20;of&#x20;debt" id="R431200570104976897_data_panel" class="a-IRR-reportView"><div class="a-IRR-tableContainer"><table aria-label="Region = debt, Report = Первичное значение по умолчанию, View = Отчёт, Displayed Rows Start = 1, Displayed Rows End = 7" class="a-IRR-table" id="431200695955976897">
+</div>
+</div>
+</div>
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div><div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" ><div id="R346210239019162144" class="margin-top-md margin-bottom-none margin-left-md margin-right-md"  ><div class="container">
+<div class="row ">
+<div class="col col-6 apex-col-auto col-start" >
+<div class="t-Region t-Region--noPadding t-Region--scrollBody margin-bottom-md" id="R414110372497951250"  role="region" aria-label="&#x0410;&#x0442;&#x0442;&#x0435;&#x0441;&#x0442;&#x0430;&#x0446;&#x0438;&#x044F;&#x20;&#x043E;&#x0442;&#x20;25.11.2024" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R414110372497951250_heading" data-apex-heading>Аттестация от 25.11.2024</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <div id="report_414110372497951250_catch"><div class="t-Report t-Report--stretch t-Report--staticRowColors t-Report--rowHighlightOff t-Report--inline" id="report_R414110372497951250"  data-region-id="R414110372497951250">
+  <div class="t-Report-wrap">
+    <table class="t-Report-pagination" role="presentation"><tr><td></td></tr></table>
+    <div class="t-Report-tableWrap">
+    <table class="t-Report-report" id="report_table_R414110372497951250" aria-label="Аттестация от 25.11.2024">
+<thead><tr><th class="t-Report-colHead"   align="center"  id="DISPRP" >Дисциплина</th><th class="t-Report-colHead"   align="center"  id="BALL" >Аттестация / Посещаемость</th></tr></thead>
+<tbody>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Иностранный язык</b></div><hr><div>Бобровская Наталья Александровна</div></td><td class="t-Report-cell"  align="center"  headers="BALL">40 &#x2F; 45</td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Безопасность жизнедеятельности</b></div><hr><div>Мельберт Алла Александровна</div></td><td class="t-Report-cell"  align="center"  headers="BALL">25 &#x2F; 50</td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Вычислительная техника</b></div><hr><div>Осокин Юрий Анатольевич</div></td><td class="t-Report-cell"  align="center"  headers="BALL">50 &#x2F; 100</td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Сети и телекоммуникации</b></div><hr><div>Шарлаев Евгений Владимирович</div></td><td class="t-Report-cell"  align="center"  headers="BALL">8 &#x2F; 83</td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Командная работа и лидерство</b></div><hr><div>Сулейменова Жанар Бейсангалиевна</div></td><td class="t-Report-cell"  align="center"  headers="BALL">80 &#x2F; 83</td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Разработка и реализация проектов</b></div><hr><div>Горлова Нина Николаевна</div></td><td class="t-Report-cell"  align="center"  headers="BALL">30 &#x2F; 30</td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Проектирование архитектуры и программного обеспечения автоматизированных систем</b></div><hr><div>Третьяков Алексей Андреевич</div></td><td class="t-Report-cell"  align="center"  headers="BALL">0 &#x2F; 0</td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Современные технологии программирования</b></div><hr><div>Тушев Александр Николаевич</div></td><td class="t-Report-cell"  align="center"  headers="BALL">0 &#x2F; 100</td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Спортивное совершенствование</b></div><hr><div>Толистинов Богдан Генодиевич</div></td><td class="t-Report-cell"  align="center"  headers="BALL">1 &#x2F; 0</td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Комплексный рейтинг </b></div></td><td class="t-Report-cell"  align="center"  headers="BALL">28</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="t-Report-links"></div>
+    <table class="t-Report-pagination t-Report-pagination--bottom" role="presentation"></table>
+  </div>
+</div></div>
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div><div class="col col-6 apex-col-auto col-end" >
+<div class="t-Region t-Region--noPadding t-Region--scrollBody margin-bottom-md" id="R432483705598800879"  role="region" aria-label="&#x0421;&#x0435;&#x0441;&#x0441;&#x0438;&#x044F;&#x20;24.12.2024-26.01.2025" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R432483705598800879_heading" data-apex-heading>Сессия 24.12.2024-26.01.2025</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <div id="report_432483705598800879_catch"><div class="t-Report t-Report--stretch t-Report--staticRowColors t-Report--rowHighlightOff t-Report--inline" id="report_R432483705598800879"  data-region-id="R432483705598800879">
+  <div class="t-Report-wrap">
+    <table class="t-Report-pagination" role="presentation"><tr><td></td></tr></table>
+    <div class="t-Report-tableWrap">
+    <table class="t-Report-report" id="report_table_R432483705598800879" aria-label="Сессия 24.12.2024-26.01.2025">
+<thead><tr><th class="t-Report-colHead"   align="center"  id="DISPRP" >Дисциплина</th><th class="t-Report-colHead"   align="center"  id="FPZ" >ФПЗ</th><th class="t-Report-colHead"   align="center"  id="IT_R" >Балл</th></tr></thead>
+<tbody>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Безопасность жизнедеятельности</b></div><hr><div>Предварительно</div></td><td class="t-Report-cell"  align="center"  headers="FPZ">Зачет</td><td class="t-Report-cell"  align="center"  headers="IT_R"></td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Вычислительная техника</b></div><hr><div>Предварительно</div></td><td class="t-Report-cell"  align="center"  headers="FPZ">Зачет</td><td class="t-Report-cell"  align="center"  headers="IT_R"><div class="circle-mark circle-mark-74"><div>60</div></div></td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Иностранный язык</b></div><hr><div>Предварительно</div></td><td class="t-Report-cell"  align="center"  headers="FPZ">Экзамен</td><td class="t-Report-cell"  align="center"  headers="IT_R"><div class="circle-mark circle-mark-49"><div>46</div></div></td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Командная работа и лидерство</b></div><hr><div>Предварительно</div></td><td class="t-Report-cell"  align="center"  headers="FPZ">Зачет</td><td class="t-Report-cell"  align="center"  headers="IT_R"><div class="circle-mark circle-mark-100"><div>90</div></div></td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Проектирование архитектуры и программного обеспечения автоматизированных систем</b></div><hr><div>Предварительно</div></td><td class="t-Report-cell"  align="center"  headers="FPZ">Экзамен</td><td class="t-Report-cell"  align="center"  headers="IT_R"></td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Разработка и реализация проектов</b></div><hr><div>Предварительно</div></td><td class="t-Report-cell"  align="center"  headers="FPZ">Зачет</td><td class="t-Report-cell"  align="center"  headers="IT_R"></td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Сети и телекоммуникации</b></div><hr><div>Предварительно</div></td><td class="t-Report-cell"  align="center"  headers="FPZ">Экзамен</td><td class="t-Report-cell"  align="center"  headers="IT_R"></td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Современные технологии программирования</b></div><hr><div>Предварительно</div></td><td class="t-Report-cell"  align="center"  headers="FPZ">Зачет</td><td class="t-Report-cell"  align="center"  headers="IT_R"></td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"><div><b>Спортивное совершенствование</b></div><hr><div>Предварительно</div></td><td class="t-Report-cell"  align="center"  headers="FPZ">Зачет</td><td class="t-Report-cell"  align="center"  headers="IT_R"><div class="circle-mark circle-mark-24"><div>0</div></div></td></tr>
+<tr><td class="t-Report-cell"  headers="DISPRP"></td><td class="t-Report-cell"  align="center"  headers="FPZ"><b>Рейтинг по итогам сессии</b></td><td class="t-Report-cell"  align="center"  headers="IT_R"></td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="t-Report-links"></div>
+    <table class="t-Report-pagination t-Report-pagination--bottom" role="presentation"></table>
+  </div>
+</div></div>
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div></div></div>
+</div><div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" >
+<div class="t-Region t-Region--scrollBody margin-top-none margin-bottom-md margin-left-md margin-right-md" id="R132620102047144429"  role="region" aria-label="&#x041A;&#x0430;&#x0440;&#x0442;&#x0430;&#x20;&#x043A;&#x0430;&#x043C;&#x043F;&#x0443;&#x0441;&#x0430;&#x20;&#x0410;&#x043B;&#x0442;&#x0413;&#x0422;&#x0423;" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R132620102047144429_heading" data-apex-heading>Карта кампуса АлтГТУ</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <iframe id="map_239185226" frameborder="0" width="100%" height="620px" sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe><script type="text/javascript">(function(e,t){var r=document.getElementById(e);r.contentWindow.document.open(),r.contentWindow.document.write(atob(t)),r.contentWindow.document.close()})("map_239185226", "PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUpe3ZhciB0PUpTT04ucGFyc2UoZSkscj10Lm9yZGVyZWRHZW9tZXRyaWVzLG49dC5tYXBQb3NpdGlvbixhPXQuaXNXaGVlbFpvb21FbmFibGVkO2Z1bmN0aW9uIG8oZSl7cmV0dXJuIGRlY29kZVVSSUNvbXBvbmVudChhdG9iKGUpLnNwbGl0KCIiKS5tYXAoZnVuY3Rpb24oZSl7cmV0dXJuIiUiKygiMDAiK2UuY2hhckNvZGVBdCgwKS50b1N0cmluZygxNikpLnNsaWNlKC0yKX0pLmpvaW4oIiIpKX1ERy50aGVuKGZ1bmN0aW9uKCl7dmFyIGU9REcubWFwKCJtYXAiLHtjZW50ZXI6W24ubGF0LG4ubG9uXSx6b29tOm4uem9vbSxzY3JvbGxXaGVlbFpvb206YSx6b29tQ29udHJvbDohYX0pO0RHLmdlb0pTT04ocix7c3R5bGU6ZnVuY3Rpb24oZSl7dmFyIHQscixuLGEsbztyZXR1cm57ZmlsbENvbG9yOm51bGw9PT0odD1lKXx8dm9pZCAwPT09dD92b2lkIDA6dC5wcm9wZXJ0aWVzLmZpbGxDb2xvcixmaWxsT3BhY2l0eTpudWxsPT09KHI9ZSl8fHZvaWQgMD09PXI/dm9pZCAwOnIucHJvcGVydGllcy5maWxsT3BhY2l0eSxjb2xvcjpudWxsPT09KG49ZSl8fHZvaWQgMD09PW4/dm9pZCAwOm4ucHJvcGVydGllcy5zdHJva2VDb2xvcix3ZWlnaHQ6bnVsbD09PShhPWUpfHx2b2lkIDA9PT1hP3ZvaWQgMDphLnByb3BlcnRpZXMuc3Ryb2tlV2lkdGgsb3BhY2l0eTpudWxsPT09KG89ZSl8fHZvaWQgMD09PW8/dm9pZCAwOm8ucHJvcGVydGllcy5zdHJva2VPcGFjaXR5fX0scG9pbnRUb0xheWVyOmZ1bmN0aW9uKGUsdCl7cmV0dXJuInJhZGl1cyJpbiBlLnByb3BlcnRpZXM/REcuY2lyY2xlKHQsZS5wcm9wZXJ0aWVzLnJhZGl1cyk6REcubWFya2VyKHQse2ljb246ZnVuY3Rpb24oZSl7cmV0dXJuIERHLmRpdkljb24oe2h0bWw6IjxkaXYgY2xhc3M9J2J1bGxldC1tYXJrZXInIHN0eWxlPSdib3JkZXItY29sb3I6ICIrZSsiOyc+PC9kaXY+IixjbGFzc05hbWU6Im92ZXJyaWRlLWRlZmF1bHQiLGljb25TaXplOlsyMCwyMF0saWNvbkFuY2hvcjpbMTAsMTBdfSl9KGUucHJvcGVydGllcy5jb2xvcil9KX0sb25FYWNoRmVhdHVyZTpmdW5jdGlvbihlLHQpe2UucHJvcGVydGllcy5kZXNjcmlwdGlvbiYmdC5iaW5kUG9wdXAobyhlLnByb3BlcnRpZXMuZGVzY3JpcHRpb24pLHtjbG9zZUJ1dHRvbjohMCxjbG9zZU9uRXNjYXBlS2V5OiEwfSksZS5wcm9wZXJ0aWVzLnRpdGxlJiZ0LmJpbmRUb29sdGlwKG8oZS5wcm9wZXJ0aWVzLnRpdGxlKSx7cGVybWFuZW50OiEwLG9wYWNpdHk6MSxjbGFzc05hbWU6InBlcm1hbmVudC10b29sdGlwIn0pfX0pLmFkZFRvKGUpfSl9KSgneyJvcmRlcmVkR2VvbWV0cmllcyI6W3sidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImRlc2NyaXB0aW9uIjoiIiwic3Ryb2tlQ29sb3IiOiIjMTBhYmE1Iiwic3Ryb2tlV2lkdGgiOjEsInN0cm9rZU9wYWNpdHkiOjAuNDIsImZpbGxDb2xvciI6IiMzN2MwYjciLCJmaWxsT3BhY2l0eSI6MC41MSwiekluZGV4IjoxfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvbHlnb24iLCJjb29yZGluYXRlcyI6W1tbODMuNzg0ODEyLDUzLjM0NjY1N10sWzgzLjc4NTE1NSw1My4zNDYzNF0sWzgzLjc4NTA3NSw1My4zNDYzMDhdLFs4My43ODUwMDUsNTMuMzQ2MzY5XSxbODMuNzg0ODc1LDUzLjM0NjMxN10sWzgzLjc4NTE2MSw1My4zNDYwNTJdLFs4My43ODUzLDUzLjM0NjEwN10sWzgzLjc4NTIzNiw1My4zNDYxNjddLFs4My43ODUzMDYsNTMuMzQ2MTk5XSxbODMuNzg1ODQyLDUzLjM0NTY4N10sWzgzLjc4NjIyOCw1My4zNDU4MzFdLFs4My43ODU3MDgsNTMuMzQ2MzE4XSxbODMuNzg1MTkzLDUzLjM0NjgwNV0sWzgzLjc4NDgxMiw1My4zNDY2NTddXV19LCJpZCI6Mzk2NH0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiZGVzY3JpcHRpb24iOiIiLCJzdHJva2VDb2xvciI6IiMxMGFiYTUiLCJzdHJva2VXaWR0aCI6MSwic3Ryb2tlT3BhY2l0eSI6MC4zOSwiZmlsbENvbG9yIjoiIzM3YzBiNyIsImZpbGxPcGFjaXR5IjowLjUxLCJ6SW5kZXgiOjJ9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9seWdvbiIsImNvb3JkaW5hdGVzIjpbW1s4My43ODQwMDcsNTMuMzQ2MTFdLFs4My43ODQxODQsNTMuMzQ1OTVdLFs4My43ODQwODMsNTMuMzQ1OTAyXSxbODMuNzg0MTUyLDUzLjM0NTg0MV0sWzgzLjc4NDI1NCw1My4zNDU4ODJdLFs4My43ODQ5NDYsNTMuMzQ1MjM1XSxbODMuNzg1MjQ3LDUzLjM0NTM1N10sWzgzLjc4NDMxMSw1My4zNDYyMjddLFs4My43ODQwMDcsNTMuMzQ2MTFdXV19LCJpZCI6MTEzMjl9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImRlc2NyaXB0aW9uIjoiIiwic3Ryb2tlQ29sb3IiOiIjMTBhYmE1Iiwic3Ryb2tlV2lkdGgiOjEsInN0cm9rZU9wYWNpdHkiOjAuMzgsImZpbGxDb2xvciI6IiMzN2MwYjciLCJmaWxsT3BhY2l0eSI6MC41MSwiekluZGV4IjozfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvbHlnb24iLCJjb29yZGluYXRlcyI6W1tbODMuNzgyMTczLDUzLjM0NjY4M10sWzgzLjc4MjMxOCw1My4zNDY1NDhdLFs4My43ODM2MzIsNTMuMzQ3MDUxXSxbODMuNzgzNDkyLDUzLjM0NzE4Nl0sWzgzLjc4MjE3Myw1My4zNDY2ODNdXV19LCJpZCI6MTUzNTl9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImRlc2NyaXB0aW9uIjoiIiwic3Ryb2tlQ29sb3IiOiIjMTBhYmE1Iiwic3Ryb2tlV2lkdGgiOjEsInN0cm9rZU9wYWNpdHkiOjAuNDUsImZpbGxDb2xvciI6IiMzN2MwYjciLCJmaWxsT3BhY2l0eSI6MC41MSwiekluZGV4Ijo0fSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvbHlnb24iLCJjb29yZGluYXRlcyI6W1tbODMuNzgyNTQ0LDUzLjM0NjU1N10sWzgzLjc4Mjg2NSw1My4zNDY2N10sWzgzLjc4MzQwOCw1My4zNDYxNTNdLFs4My43ODMxMDIsNTMuMzQ2MDMyXSxbODMuNzgyNTQ0LDUzLjM0NjU1N11dXX0sImlkIjoxNTc1Mn0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiZGVzY3JpcHRpb24iOiIiLCJzdHJva2VDb2xvciI6IiMxMGFiYTUiLCJzdHJva2VXaWR0aCI6MSwic3Ryb2tlT3BhY2l0eSI6MC40NCwiZmlsbENvbG9yIjoiIzM3YzBiNyIsImZpbGxPcGFjaXR5IjowLjUxLCJ6SW5kZXgiOjV9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9seWdvbiIsImNvb3JkaW5hdGVzIjpbW1s4My43ODMyNDcsNTMuMzQ2ODIzXSxbODMuNzgzNTYyLDUzLjM0NjkzM10sWzgzLjc4NDA5NSw1My4zNDY0MTZdLFs4My43ODM3OTgsNTMuMzQ2MzA1XSxbODMuNzgzMjQ3LDUzLjM0NjgyM11dXX0sImlkIjoxNTgxMn0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiZGVzY3JpcHRpb24iOiIiLCJzdHJva2VDb2xvciI6IiMxMGFiYTUiLCJzdHJva2VXaWR0aCI6MSwic3Ryb2tlT3BhY2l0eSI6MC40MywiZmlsbENvbG9yIjoiIzM3YzBiNyIsImZpbGxPcGFjaXR5IjowLjUyLCJ6SW5kZXgiOjZ9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9seWdvbiIsImNvb3JkaW5hdGVzIjpbW1s4My43ODE2ODYsNTMuMzQ2NDg2XSxbODMuNzgxOTExLDUzLjM0NjU2Nl0sWzgzLjc4MjQ1Miw1My4zNDYwNjJdLFs4My43ODIyMjYsNTMuMzQ1OTcyXSxbODMuNzgxNjg2LDUzLjM0NjQ4Nl1dXX0sImlkIjoxNjQzNX0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiZGVzY3JpcHRpb24iOiIiLCJzdHJva2VDb2xvciI6IiMxMGFiYTUiLCJzdHJva2VXaWR0aCI6MSwic3Ryb2tlT3BhY2l0eSI6MC40MywiZmlsbENvbG9yIjoiIzM3YzBiNyIsImZpbGxPcGFjaXR5IjowLjUxLCJ6SW5kZXgiOjd9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9seWdvbiIsImNvb3JkaW5hdGVzIjpbW1s4My43ODE3OTcsNTMuMzQ2MDA3XSxbODMuNzgxOTI3LDUzLjM0NTg3NV0sWzgzLjc4MTYzNiw1My4zNDU3NjddLFs4My43ODE4NjgsNTMuMzQ1NTQ1XSxbODMuNzgyMDU2LDUzLjM0NTYxMl0sWzgzLjc4MjE1OCw1My4zNDU1MjJdLFs4My43ODIyODEsNTMuMzQ1NTYxXSxbODMuNzgyNDEsNTMuMzQ1NDQyXSxbODMuNzgyMjI4LDUzLjM0NTM3OF0sWzgzLjc4MjI5Niw1My4zNDUzMTldLFs4My43ODI3MTUsNTMuMzQ1NDc5XSxbODMuNzgyODcxLDUzLjM0NTMzM10sWzgzLjc4MjQ1Nyw1My4zNDUxNjVdLFs4My43ODI3NDMsNTMuMzQ0ODgyXSxbODMuNzgyNjE5LDUzLjM0NDgyN10sWzgzLjc4MjY4OCw1My4zNDQ3NjVdLFs4My43ODI3MzEsNTMuMzQ0Nzg0XSxbODMuNzgyODExLDUzLjM0NDcwN10sWzgzLjc4Mjc2OCw1My4zNDQ2OTddLFs4My43ODI3Nyw1My4zNDQ2OTNdLFs4My43ODI4MzQsNTMuMzQ0NjI5XSxbODMuNzgzMTM4LDUzLjM0NDc0NV0sWzgzLjc4MzI4NSw1My4zNDQ2MTNdLFs4My43ODI3OCw1My4zNDQ0MTRdLFs4My43ODIzNzcsNTMuMzQ0ODA2XSxbODMuNzgyNDg5LDUzLjM0NDg1OF0sWzgzLjc4MTg0MSw1My4zNDU0NzddLFs4My43ODE3MjMsNTMuMzQ1NDIzXSxbODMuNzgxMzA5LDUzLjM0NTgxOF0sWzgzLjc4MTc5Nyw1My4zNDYwMDddXV19LCJpZCI6MTY1ODV9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImRlc2NyaXB0aW9uIjoiIiwic3Ryb2tlQ29sb3IiOiIjMTBhYmE1Iiwic3Ryb2tlV2lkdGgiOjEsInN0cm9rZU9wYWNpdHkiOjAuNDIsImZpbGxDb2xvciI6IiMzN2MwYjciLCJmaWxsT3BhY2l0eSI6MC41MSwiekluZGV4Ijo4fSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvbHlnb24iLCJjb29yZGluYXRlcyI6W1tbODMuNzgzMTk3LDUzLjM0NDM1Ml0sWzgzLjc4MzQ0NSw1My4zNDQxMzJdLFs4My43ODM4Myw1My4zNDQyNzVdLFs4My43ODM1NzMsNTMuMzQ0NTA1XSxbODMuNzgzMTk3LDUzLjM0NDM1Ml1dXX0sImlkIjoxODU4NX0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiZGVzY3JpcHRpb24iOiIiLCJzdHJva2VDb2xvciI6IiMxMGFiYTUiLCJzdHJva2VXaWR0aCI6MSwic3Ryb2tlT3BhY2l0eSI6MC40NCwiZmlsbENvbG9yIjoiIzM3YzBiNyIsImZpbGxPcGFjaXR5IjowLjUyLCJ6SW5kZXgiOjl9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9seWdvbiIsImNvb3JkaW5hdGVzIjpbW1s4My43ODMzOTcsNTMuMzQ0ODI3XSxbODMuNzgzOTM0LDUzLjM0NDMyMV0sWzgzLjc4NDE2NCw1My4zNDQ0MDFdLFs4My43ODM2MjgsNTMuMzQ0OTE0XSxbODMuNzgzMzk3LDUzLjM0NDgyN11dXX0sImlkIjoxODY0NX0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiZGVzY3JpcHRpb24iOiIiLCJzdHJva2VDb2xvciI6IiMxMGFiYTUiLCJzdHJva2VXaWR0aCI6MSwic3Ryb2tlT3BhY2l0eSI6MC40NSwiZmlsbENvbG9yIjoiIzM3YzBiNyIsImZpbGxPcGFjaXR5IjowLjUxLCJ6SW5kZXgiOjEwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvbHlnb24iLCJjb29yZGluYXRlcyI6W1tbODMuNzg0MTg0LDUzLjM0NTE4MV0sWzgzLjc4NDc0Miw1My4zNDQ2NjJdLFs4My43ODQ5NTIsNTMuMzQ0NzM5XSxbODMuNzg0OTQ2LDUzLjM0NDc2OF0sWzgzLjc4NTc1MSw1My4zNDUwNzJdLFs4My43ODU1NjgsNTMuMzQ1MjQ4XSxbODMuNzg1MzMyLDUzLjM0NTE2Ml0sWzgzLjc4NTI5LDUzLjM0NTE5NF0sWzgzLjc4NTE0MSw1My4zNDUxMzhdLFs4My43ODUxNjYsNTMuMzQ1MTAxXSxbODMuNzg1MDE2LDUzLjM0NTAzN10sWzgzLjc4NDk2OCw1My4zNDUwNzldLFs4My43ODQ4MTIsNTMuMzQ1MDE4XSxbODMuNzg0ODU1LDUzLjM0NDk4Nl0sWzgzLjc4NDc1OCw1My4zNDQ5NV0sWzgzLjc4NDQxNSw1My4zNDUyNjRdLFs4My43ODQxODQsNTMuMzQ1MTgxXV1dfSwiaWQiOjE4NzA1fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJkZXNjcmlwdGlvbiI6IiIsInN0cm9rZUNvbG9yIjoiIzEwYWJhNSIsInN0cm9rZVdpZHRoIjoxLCJzdHJva2VPcGFjaXR5IjowLjQ2LCJmaWxsQ29sb3IiOiIjMzdjMGI3IiwiZmlsbE9wYWNpdHkiOjAuNTEsInpJbmRleCI6MTF9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9seWdvbiIsImNvb3JkaW5hdGVzIjpbW1s4My43ODQ0MDQsNTMuMzQ3NDQyXSxbODMuNzg0NTQ0LDUzLjM0NzMyXSxbODMuNzg0MjY1LDUzLjM0NzIxOF0sWzgzLjc4NDUzOSw1My4zNDY5NzFdLFs4My43ODQzOSw1My4zNDY5MTVdLFs4My43ODQ0MTUsNTMuMzQ2ODg4XSxbODMuNzg0MzM2LDUzLjM0Njg1OF0sWzgzLjc4MzksNTMuMzQ3MjUzXSxbODMuNzg0NDA0LDUzLjM0NzQ0Ml1dXX0sImlkIjoyMDU0MX0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiZGVzY3JpcHRpb24iOiIiLCJzdHJva2VDb2xvciI6IiMxMGFiYTUiLCJzdHJva2VXaWR0aCI6MSwic3Ryb2tlT3BhY2l0eSI6MC40MywiZmlsbENvbG9yIjoiIzM3YzBiNyIsImZpbGxPcGFjaXR5IjowLjUxLCJ6SW5kZXgiOjEyfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvbHlnb24iLCJjb29yZGluYXRlcyI6W1tbODMuNzgzNTk0LDUzLjM0NTUxMV0sWzgzLjc4MzcyMyw1My4zNDU0MDJdLFs4My43ODQxMzEsNTMuMzQ1NTQzXSxbODMuNzgzOTgxLDUzLjM0NTY3MV0sWzgzLjc4MzU5NCw1My4zNDU1MTFdXV19LCJpZCI6MjE1MDN9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImRlc2NyaXB0aW9uIjoiIiwic3Ryb2tlQ29sb3IiOiIjMTBhYmE1Iiwic3Ryb2tlV2lkdGgiOjEsInN0cm9rZU9wYWNpdHkiOjAuNDYsImZpbGxDb2xvciI6IiMzN2MwYjciLCJmaWxsT3BhY2l0eSI6MC41LCJ6SW5kZXgiOjEzfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvbHlnb24iLCJjb29yZGluYXRlcyI6W1tbODMuNzg2MTk2LDUzLjM0NTQ2OV0sWzgzLjc4NjM2OSw1My4zNDUzMDVdLFs4My43ODY4NDEsNTMuMzQ1NDg3XSxbODMuNzg2NjY0LDUzLjM0NTY1XSxbODMuNzg2MTk2LDUzLjM0NTQ2OV1dXX0sImlkIjoyMTc1NH0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiZGVzY3JpcHRpb24iOiIiLCJzdHJva2VDb2xvciI6IiNkODk5MDIiLCJzdHJva2VXaWR0aCI6MSwic3Ryb2tlT3BhY2l0eSI6MC42OSwiZmlsbENvbG9yIjoiI2Q4OTkwMiIsImZpbGxPcGFjaXR5IjowLjUzLCJ6SW5kZXgiOjE0fSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvbHlnb24iLCJjb29yZGluYXRlcyI6W1tbODMuNzg5NzQ3LDUzLjM0Njc0NF0sWzgzLjc4OTk0Myw1My4zNDY4MTZdLFs4My43OTAzOCw1My4zNDY0MDRdLFs4My43OTA0NzksNTMuMzQ2NDM4XSxbODMuNzkwODU4LDUzLjM0NjA5N10sWzgzLjc5MDY3LDUzLjM0NjAyNl0sWzgzLjc5MDMyMSw1My4zNDYzNF0sWzgzLjc5MDIyNyw1My4zNDYzMDFdLFs4My43ODk3NDcsNTMuMzQ2NzQ0XV1dfSwiaWQiOjI2NDQ1fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJkZXNjcmlwdGlvbiI6IiIsInN0cm9rZUNvbG9yIjoiI2Q4OTkwMiIsInN0cm9rZVdpZHRoIjoxLCJzdHJva2VPcGFjaXR5IjowLjY4LCJmaWxsQ29sb3IiOiIjZDg5OTAyIiwiZmlsbE9wYWNpdHkiOjAuNTEsInpJbmRleCI6MTV9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9seWdvbiIsImNvb3JkaW5hdGVzIjpbW1s4My43ODc2MTgsNTMuMzQ1MjQ4XSxbODMuNzg3MzY4LDUzLjM0NTQ3N10sWzgzLjc4NzU2MSw1My4zNDU1NDhdLFs4My43ODc3NTIsNTMuMzQ1MzY0XSxbODMuNzg3ODg2LDUzLjM0NTQxNV0sWzgzLjc4ODExOSw1My4zNDUxODZdLFs4My43ODc5MjMsNTMuMzQ1MTE3XSxbODMuNzg3NzM2LDUzLjM0NTI5M10sWzgzLjc4NzYxOCw1My4zNDUyNDhdXV19LCJpZCI6MjY2NzB9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImRlc2NyaXB0aW9uIjoiIiwic3Ryb2tlQ29sb3IiOiIjZDg5OTAyIiwic3Ryb2tlV2lkdGgiOjEsInN0cm9rZU9wYWNpdHkiOjAuNzIsImZpbGxDb2xvciI6IiNkODk5MDIiLCJmaWxsT3BhY2l0eSI6MC42MSwiekluZGV4IjoxNn0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2x5Z29uIiwiY29vcmRpbmF0ZXMiOltbWzgzLjc4NTY0Niw1My4zNDY5MDNdLFs4My43ODU3NDYsNTMuMzQ2OTQyXSxbODMuNzg1NzI2LDUzLjM0Njk3XSxbODMuNzg1ODA1LDUzLjM0Njk5N10sWzgzLjc4NjQxMSw1My4zNDY0MjddLFs4My43ODYyMiw1My4zNDYzNDldLFs4My43ODU2NDYsNTMuMzQ2OTAzXV1dfSwiaWQiOjI2ODM2fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJkZXNjcmlwdGlvbiI6IiIsInN0cm9rZUNvbG9yIjoiI2Q4OTkwMiIsInN0cm9rZVdpZHRoIjoxLCJzdHJva2VPcGFjaXR5IjowLjc1LCJmaWxsQ29sb3IiOiIjZDg5OTAyIiwiZmlsbE9wYWNpdHkiOjAuNTUsInpJbmRleCI6MTd9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9seWdvbiIsImNvb3JkaW5hdGVzIjpbW1s4My43ODQ3NjEsNTMuMzQ3NzQ4XSxbODMuNzg0ODUyLDUzLjM0NzY1OF0sWzgzLjc4NDgyLDUzLjM0NzYzOV0sWzgzLjc4NDg3Niw1My4zNDc1OTJdLFs4My43ODUxNjEsNTMuMzQ3Njk4XSxbODMuNzg1MTI5LDUzLjM0NzcyNF0sWzgzLjc4NTM2Miw1My4zNDc4MDldLFs4My43ODUyMzMsNTMuMzQ3OTI3XSxbODMuNzg1MTMxLDUzLjM0Nzg4Nl0sWzgzLjc4NTEwNCw1My4zNDc5MThdLFs4My43ODUwNSw1My4zNDc5MDJdLFs4My43ODUwNzcsNTMuMzQ3ODZdLFs4My43ODQ3NjEsNTMuMzQ3NzQ4XV1dfSwiaWQiOjI2OTI2fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJkZXNjcmlwdGlvbiI6IiIsInN0cm9rZUNvbG9yIjoiI2Q4OTkwMiIsInN0cm9rZVdpZHRoIjoxLCJzdHJva2VPcGFjaXR5IjowLjYxLCJmaWxsQ29sb3IiOiIjZDg5OTAyIiwiZmlsbE9wYWNpdHkiOjAuNTgsInpJbmRleCI6MTh9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9seWdvbiIsImNvb3JkaW5hdGVzIjpbW1s4My43ODU2OTQsNTMuMzQ3MTQ2XSxbODMuNzg1ODIzLDUzLjM0NzJdLFs4My43ODU4NzEsNTMuMzQ3MTU5XSxbODMuNzg1OTI1LDUzLjM0NzE3OF0sWzgzLjc4NTMxNiw1My4zNDc3NTZdLFs4My43ODUxMjMsNTMuMzQ3NjY2XSxbODMuNzg1Njk0LDUzLjM0NzE0Nl1dXX0sImlkIjoyNzIzNH0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiZGVzY3JpcHRpb24iOiIiLCJzdHJva2VDb2xvciI6IiNkODk5MDIiLCJzdHJva2VXaWR0aCI6MSwic3Ryb2tlT3BhY2l0eSI6MC42NiwiZmlsbENvbG9yIjoiI2Q4OTkwMiIsImZpbGxPcGFjaXR5IjowLjUxLCJ6SW5kZXgiOjE5fSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvbHlnb24iLCJjb29yZGluYXRlcyI6W1tbODMuNzg1MzMyLDUzLjM0Njk2OF0sWzgzLjc4NTQ4Myw1My4zNDY4M10sWzgzLjc4NTU1Miw1My4zNDY4NTldLFs4My43ODU1MzEsNTMuMzQ2ODg4XSxbODMuNzg1NzEsNTMuMzQ2OTU3XSxbODMuNzg1Njk3LDUzLjM0Njk4NF0sWzgzLjc4NjA3LDUzLjM0NzEyN10sWzgzLjc4Niw1My4zNDcyMDRdLFs4My43ODU4OCw1My4zNDcxNTRdLFs4My43ODU4MjYsNTMuMzQ3MjAyXSxbODMuNzg1NTE1LDUzLjM0NzA5XSxbODMuNzg1NTU4LDUzLjM0NzA0OF0sWzgzLjc4NTMzMiw1My4zNDY5NjhdXV19LCJpZCI6MjczMjR9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImRlc2NyaXB0aW9uIjoiIiwic3Ryb2tlQ29sb3IiOiIjZDg5OTAyIiwic3Ryb2tlV2lkdGgiOjEsInN0cm9rZU9wYWNpdHkiOjAuNjksImZpbGxDb2xvciI6IiNkODk5MDIiLCJmaWxsT3BhY2l0eSI6MC41MiwiekluZGV4IjoyMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2x5Z29uIiwiY29vcmRpbmF0ZXMiOltbWzgzLjc4NjYwOSw1My4zNDYzMDVdLFs4My43ODY3ODYsNTMuMzQ2MzczXSxbODMuNzg3MzYsNTMuMzQ1ODM4XSxbODMuNzg3MTc4LDUzLjM0NTc2N10sWzgzLjc4NjYwOSw1My4zNDYzMDVdXV19LCJpZCI6MzA5MTd9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImRlc2NyaXB0aW9uIjoiIiwic3Ryb2tlQ29sb3IiOiIjMTBhYmE1Iiwic3Ryb2tlV2lkdGgiOjEsInN0cm9rZU9wYWNpdHkiOjAuNDcsImZpbGxDb2xvciI6IiMzN2MwYjciLCJmaWxsT3BhY2l0eSI6MC41MiwiekluZGV4IjoyMX0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2x5Z29uIiwiY29vcmRpbmF0ZXMiOltbWzgzLjc4ODYzMSw1My4zNDg2NzJdLFs4My43ODg3ODEsNTMuMzQ4NTQ0XSxbODMuNzkwMDIxLDUzLjM0ODk5NV0sWzgzLjc4OTg5Nyw1My4zNDkxMl0sWzgzLjc4ODYzMSw1My4zNDg2NzJdXV19LCJpZCI6MzM0Nzd9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImRlc2NyaXB0aW9uIjoiIiwic3Ryb2tlQ29sb3IiOiIjMTBhYmE1Iiwic3Ryb2tlV2lkdGgiOjEsInN0cm9rZU9wYWNpdHkiOjAuNDksImZpbGxDb2xvciI6IiMzN2MwYjciLCJmaWxsT3BhY2l0eSI6MC40OCwiekluZGV4IjoyMn0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2x5Z29uIiwiY29vcmRpbmF0ZXMiOltbWzgzLjczODIwMyw1My4zMTk1NjFdLFs4My43MzgzNjksNTMuMzE5NDE3XSxbODMuNzM4ODY4LDUzLjMxOTY1OF0sWzgzLjczODcwMiw1My4zMTk3ODZdLFs4My43MzgyMDMsNTMuMzE5NTYxXV1dfSwiaWQiOjM0NTM0fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJkZXNjcmlwdGlvbiI6IiIsInN0cm9rZUNvbG9yIjoiIzEwYWJhNSIsInN0cm9rZVdpZHRoIjoxLCJzdHJva2VPcGFjaXR5IjowLjUxLCJmaWxsQ29sb3IiOiIjMzdjMGI3IiwiZmlsbE9wYWNpdHkiOjAuNSwiekluZGV4IjoyM30sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2x5Z29uIiwiY29vcmRpbmF0ZXMiOltbWzgzLjc3NTczOCw1My4zMDk4MTZdLFs4My43NzU5MzEsNTMuMzA5NjQyXSxbODMuNzc2NDYyLDUzLjMwOTg1MV0sWzgzLjc3NjI2OSw1My4zMTAwMjFdLFs4My43NzYwODQsNTMuMzA5OTQ4XSxbODMuNzc2MTU0LDUzLjMwOTg4N10sWzgzLjc3NTkwNCw1My4zMDk3OTNdLFs4My43NzU4MzcsNTMuMzA5ODUyXSxbODMuNzc1NzM4LDUzLjMwOTgxNl1dXX0sImlkIjozNTQ2Mn0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsidGl0bGUiOiJQR2cwUHRDVDBMdlFzTkN5MEwzUmk5QzVJTkM2MEw3UmdOQy8wWVBSZ1R3dmFEUSsiLCJkZXNjcmlwdGlvbiI6IiIsImNvbG9yIjoiIzE4YjJhMiIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzgyNTM4LDUzLjM0NTMxOV19LCJpZCI6MTAyNH0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsidGl0bGUiOiJQR2cwUHRDYTBMN1JnTkMvMFlQUmdTRFFrVHd2YURRKyIsImRlc2NyaXB0aW9uIjoiIiwiY29sb3IiOiIjMThiMmEyIiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls4My43ODMxODcsNTMuMzQ2MjZdfSwiaWQiOjExNDV9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7InRpdGxlIjoiUEdnMFB0Q2QwTDdRc3RHTDBMa2cwTHJRdnRHQTBML1JnOUdCUEM5b05END0iLCJkZXNjcmlwdGlvbiI6IiIsImNvbG9yIjoiIzE4YjJhMiIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzg0MTc0LDUzLjM0NzMxMV19LCJpZCI6MTQxNn0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsidGl0bGUiOiJQR2cwUHRDYTBMN1JnTkMvMFlQUmdTRFFuOUNhUEM5b05END0iLCJkZXNjcmlwdGlvbiI6IlBHZ3pJSE4wZVd4bFBTSmpiMnh2Y2pwVVpXRnNJajRnMEpUUmdOR0QwTFBRdU5DMUlOQzkwTERRdDlDeTBMRFF2ZEM0MFk4NklOQ2YwTGpSaWRDMTBMTFF2dEM1SU5DNjBMN1JnTkMvMFlQUmdTd2cwSnJRdnRHQTBML1JnOUdCSU5DYzBKRFFuOUNmTGp3dmFETSsiLCJjb2xvciI6IiMxOGIyYTIiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzgzLjc4NDc2NCw1My4zNDQ3ODFdfSwiaWQiOjE3NjN9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7InRpdGxlIjoiMEpIUXNOR0IwWUhRdGRDNTBMMD0iLCJkZXNjcmlwdGlvbiI6IiIsImNvbG9yIjoiIzE4YjJhMiIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzgzMzY5LDUzLjM0NDI0M119LCJpZCI6MTk1NH0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsidGl0bGUiOiIwSnpRc05DOTBMWFF0Zz09IiwiZGVzY3JpcHRpb24iOiIiLCJjb2xvciI6IiMxOGIyYTIiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzgzLjc4NTY2NSw1My4zNDYxMTNdfSwiaWQiOjIxNDB9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7InRpdGxlIjoiUEdnMFB0Q2IwTERRc2RDKzBZRFFzTkdDMEw3UmdOQzkwWXZRdVNEUXV0QyswWURRdjlHRDBZRT0iLCJkZXNjcmlwdGlvbiI6IlBHZ3pJSE4wZVd4bFBTSmpiMnh2Y2pwVVpXRnNJajRnMEpUUmdOR0QwTFBRdU5DMUlOQzkwTERRdDlDeTBMRFF2ZEM0MFk4NklOQ2gwWUxSZ05DKzBMalJndEMxMEx2UmpOQzkwWXZRdVNEUXV0QyswWURRdjlHRDBZRXVQQzlvTXo0PSIsImNvbG9yIjoiIzE4YjJhMiIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzg0Mzk5LDUzLjM0NTkxNF19LCJpZCI6MTExOTN9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7InRpdGxlIjoiUEdnMFB0Q2EwTDdSZ05DLzBZUFJnU0RRa2p3dmFEUSsiLCJkZXNjcmlwdGlvbiI6IiIsImNvbG9yIjoiIzE4YjJhMiIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzgyNDc5LDUzLjM0Njc2XX0sImlkIjoxNDk3N30seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsidGl0bGUiOiJQR2cwUHRDYTBMN1JnTkMvMFlQUmdTRFFrRHd2YURRKyIsImRlc2NyaXB0aW9uIjoiIiwiY29sb3IiOiIjMThiMmEyIiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls4My43ODM4Miw1My4zNDY0NjVdfSwiaWQiOjE1MDA3fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJ0aXRsZSI6IlBHZzBQdENhMEw3UmdOQy8wWVBSZ1NEUWt6d3ZhRFErIiwiZGVzY3JpcHRpb24iOiIiLCJjb2xvciI6IiMxOGIyYTIiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzgzLjc4MjIzMiw1My4zNDYxMTldfSwiaWQiOjE4MzQ4fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJ0aXRsZSI6IlBHZzBQdENhMEw3UmdOQy8wWVBSZ1NEUWxEd3ZhRFErIiwiZGVzY3JpcHRpb24iOiIiLCJjb2xvciI6IiMxOGIyYTIiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzgzLjc4Mzk4Niw1My4zNDQ0MTZdfSwiaWQiOjE4NTAwfSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJ0aXRsZSI6IlBHZzBQdENhMEw3UmdOQy8wWVBSZ1NEUWtOQ2wwS2M4TDJnMFBnPT0iLCJkZXNjcmlwdGlvbiI6IiIsImNvbG9yIjoiIzE4YjJhMiIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzgzNzc3LDUzLjM0NTQ0N119LCJpZCI6MjE1NjN9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7InRpdGxlIjoiUEdnMFB0Q2EwTDdSZ05DLzBZUFJnU0RRbWp3dmFEUSsiLCJkZXNjcmlwdGlvbiI6IiIsImNvbG9yIjoiIzE4YjJhMiIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzg2NCw1My4zNDUzOTJdfSwiaWQiOjIxODYyfSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJjb2xvciI6IiNlMjllMDAiLCJ0aXRsZSI6IjBLUFF2OUdBMExEUXNpNGcwWUhSZ3RHRDBMUXVJTkN6MEw3UmdOQyswTFRRdXRDdyIsImRlc2NyaXB0aW9uIjoiUEhBKzBLUFF2OUdBMExEUXN0QzcwTFhRdmRDNDBMVWcwWUhSZ3RHRDBMVFF0ZEM5MFlmUXRkR0IwTHJRdnRDejBMNGcwTFBRdnRHQTBMN1F0TkM2MExBdUN0Q1EwTFRSZ05DMTBZRTZJTkMvMFlBdUlOQ2EwTDdRdk5HQjBMN1F2TkMrMEx2UmpOR0IwTHJRdU5DNUxDQTJOeUFvMExMUmhkQyswTFFnMFlFZzBZTFF2dEdBMFliUXNDa0swS0xRdGRDNzBMWFJoTkMrMEwwNklEZ2dLRE00TlRJcElESTVMVEE1TFRjM1BDOXdQZz09IiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls4My43ODY2ODQsNTMuMzQ2MzY5XX0sImlkIjoyNTA2NH0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiY29sb3IiOiIjZTI5ZTAwIiwidGl0bGUiOiIwSjdRc2RHSjBMWFF0dEM0MFlMUXVOQzFJT0tFbGpFPSIsImRlc2NyaXB0aW9uIjoiUEhBKzBKRFF0TkdBMExYUmdUb2cwTC9SZ0M0ZzBKclF2dEM4MFlIUXZ0QzgwTDdRdTlHTTBZSFF1dEM0MExrc0lEY3hMekV1Q3RDaTBMWFF1OUMxMFlUUXZ0QzlPaUE0SUNnek9EVXlLU0F5TkMwMU9DMHpOend2Y0Q0PSIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzg1Mzk3LDUzLjM0NzU4XX0sImlkIjoyNTEwN30seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiY29sb3IiOiIjZTI5ZTAwIiwidGl0bGUiOiIwSjdRc2RHSjBMWFF0dEM0MFlMUXVOQzFJT0tFbGpJPSIsImRlc2NyaXB0aW9uIjoiUEhBKzBKRFF0TkdBMExYUmdUb2cwTC9SZ0M0ZzBKclF2dEM4MFlIUXZ0QzgwTDdRdTlHTTBZSFF1dEM0MExrc0lEWTVMZ3JRb3RDMTBMdlF0ZEdFMEw3UXZUb2dPQ0FvTXpnMU1pa2dNalF0TmpndE1URThMM0ErIiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls4My43ODYwODMsNTMuMzQ2NjQ1XX0sImlkIjoyNTIwOX0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiY29sb3IiOiIjZTI5ZTAwIiwidGl0bGUiOiIwSjdRc2RHSjBMWFF0dEM0MFlMUXVOQzFJT0tFbGpRPSIsImRlc2NyaXB0aW9uIjoiUEhBKzBKRFF0TkdBMExYUmdUb2cwWVBRdXk0ZzBKM1F0ZEM2MFlEUXNOR0IwTDdRc3RDd0xDQTBNUzRLMEtMUXRkQzcwTFhSaE5DKzBMMDZJRGdnS0RNNE5USXBJREkwTFRRNExUQTJQQzl3UGc9PSIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzkwMjQ2LDUzLjM0NjM5NV19LCJpZCI6MjUyMzZ9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiI2UyOWUwMCIsInRpdGxlIjoiMEo3UXNkR0owTFhRdHRDNDBZTFF1TkMxSU9LRWxqVT0iLCJkZXNjcmlwdGlvbiI6IlBIQSswSkRRdE5HQTBMWFJnVG9nMEwvUmdDNGcwSnJRdnRDODBZSFF2dEM4MEw3UXU5R00wWUhRdXRDNDBMa3NJRFkxMExBdUN0Q2kwTFhRdTlDMTBZVFF2dEM5T2lBNElDZ3pPRFV5S1NBeU5DMDVOaTB4T1R3dmNEND0iLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzgzLjc4Nzk4Miw1My4zNDUyMV19LCJpZCI6MjU0Mzl9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiI2UyOWUwMCIsInRpdGxlIjoiMEo3UXNkR0owTFhRdHRDNDBZTFF1TkMxSU9LRWxqWT0iLCJkZXNjcmlwdGlvbiI6IlBIQSswSkRRdE5HQTBMWFJnVG9nMEwvUmdDNGcwSnJRdnRDODBZSFF2dEM4MEw3UXU5R00wWUhRdXRDNDBMa3NJRGN4THpJdUN0Q2kwTFhRdTlDMTBZVFF2dEM5T2lBNElDZ3pPRFV5S1NBeU5DMDFPQzB6T1R3dmNEND0iLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzgzLjc4NTE5Myw1My4zNDc4MzZdfSwiaWQiOjI1NTM1fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJjb2xvciI6IiNlMjllMDAiLCJ0aXRsZSI6IjBKN1FzZEdKMExYUXR0QzQwWUxRdU5DMUlPS0VsamM9IiwiZGVzY3JpcHRpb24iOiJQSEErMEpEUXROR0EwTFhSZ1RvZzBML1JnQzRnMEpyUXZ0QzgwWUhRdnRDODBMN1F1OUdNMFlIUXV0QzQwTGtzSURZNTBMRXVDdENpMExYUXU5QzEwWVRRdnRDOU9pQTRJQ2d6T0RVeUtTQTJOaTA0TmkweU56d3ZjRDQ9IiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls4My43ODU1MTUsNTMuMzQ3MDAzXX0sImlkIjoyNTU5NX0seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiY29sb3IiOiIjZTI5ZTAwIiwidGl0bGUiOiIwSjdRc2RHSjBMWFF0dEM0MFlMUXVOQzFJT0tFbGpNPSIsImRlc2NyaXB0aW9uIjoiUEhBKzBKRFF0TkdBMExYUmdUb2cwTC9SZ0M0ZzBKclF2dEM4MFlIUXZ0QzgwTDdRdTlHTTBZSFF1dEM0MExrc0lEWTNMZ3JRb3RDMTBMdlF0ZEdFMEw3UXZUb2dPQ0FvTXpnMU1pa2dNalF0TmpndE1qQThMM0ErIiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls4My43ODcwNiw1My4zNDU5ODVdfSwiaWQiOjMwOTA0fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJjb2xvciI6IiMxOGIyYTIiLCJ0aXRsZSI6IjBKZlF0TkdBMExEUXN0Qy8wWVBRdmRDNjBZST0iLCJkZXNjcmlwdGlvbiI6IlBHZ3pJSE4wZVd4bFBTSmpiMnh2Y2pwVVpXRnNJajRnMEpEUXROR0EwTFhSZ1RvZzBZUFF1eTRnMEozUXRkQzYwWURRc05HQjBMN1FzdEN3TENBME1TNEswS0xRdGRDNzBMWFJoTkMrMEwwNklEZ2dLRE00TlRJcElESTBMVFkxTFRNeElDd2dPQ0FvTXpnMU1pa2dNalF0TmpVdE16azhMMmd6UGc9PSIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzkwMTI4LDUzLjM0NjYyNV19LCJpZCI6MzE1Njh9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7InRpdGxlIjoiUEdJKzBKTFF2dEMxMEwzUXZkR0wwTGtnMFlQUmg5QzEwTEhRdmRHTDBMa2cwWWJRdGRDOTBZTFJnQT09IiwiZGVzY3JpcHRpb24iOiJQR2d6SUhOMGVXeGxQU0pqYjJ4dmNqcFVaV0ZzSWo0ZzBKTFF2dEMxMEwzUXZkR0wwTGtnMFlQUmg5QzEwTEhRdmRHTDBMa2cwWWJRdGRDOTBZTFJnQ0RRdjlHQTBMZ2cwSkRRdTlHQzBKUFFvdENqSU5DNDBMd3VJTkNZTHRDWUxpRFFuOUMrMEx2UXQ5R0QwTDNRdnRDeTBMQXVDdENRMExUUmdOQzEwWUU2SU5DLzBMWFJnQzRnMEozUXRkQzYwWURRc05HQjBMN1FzdEN3TENBMk5DNDhMMmd6UGc9PSIsImNvbG9yIjoiIzE4YjJhMiIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzg5MDY2LDUzLjM0ODc3N119LCJpZCI6MzM3NjB9LHsidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7InRpdGxlIjoiUEdnMFB0Q2wwSm84TDJnMFBnPT0iLCJkZXNjcmlwdGlvbiI6IlBHZ3pJSE4wZVd4bFBTSmpiMnh2Y2pwVVpXRnNJajRnMEtYUXVOQzgwTGpSaDlDMTBZSFF1dEM0MExrZzBMclF2dEdBMEwvUmc5R0JMZ3JRa05DMDBZRFF0ZEdCT2lEUmc5QzdMaURRbmRDMTBMclJnTkN3MFlIUXZ0Q3kwTEFzSURZMExqd3ZhRE0rIiwiY29sb3IiOiIjMThiMmEyIiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls4My43ODk1MDYsNTMuMzQ4OTU3XX0sImlkIjozMzgyM30seyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsiY29sb3IiOiIjMThiMmEyIiwidGl0bGUiOiIwSnZSaTlDMjBMM1FzTkdQSU5DeDBMRFF0OUN3SU5DUTBMdlJndENUMEtMUW93PT0iLCJkZXNjcmlwdGlvbiI6IlBIQSswSkRRdE5HQTBMWFJnVG9nMFlQUXV5NGcwSnJSZzlHQzBZUFF0OUMrMExMUXNDd2cwTFF1SURFeTBMQXVQQzl3UGc9PSIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzM4Nyw1My4zMTk2MzNdfSwiaWQiOjMzOTc2fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJjb2xvciI6IiMxOGIyYTIiLCJ0aXRsZSI6IjBKalF2ZEdCMFlMUXVOR0MwWVBSZ2lEUXNOR0EwWVV1SU5DNElOQzAwTGpRdDlDdzBMblF2ZEN3IiwiZGVzY3JpcHRpb24iOiJQSEErMEpEUXROR0EwTFhSZ1RvZzBZUFF1eTRnMEpEUXN0Q3cwTDNRdGRHQjBMN1FzdEN3TENEUXRDNGdNVE15TGp3dmNEND0iLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzgzLjc3NjIzNCw1My4zMDk3ODhdfSwiaWQiOjM1Mjc4fSx7InR5cGUiOiJGZWF0dXJlIiwicHJvcGVydGllcyI6eyJ0aXRsZSI6IlBHZzBQdENmMFlEUXVOQzEwTHpRdmRDdzBZOGcwTHJRdnRDODBMalJnZEdCMExqUmp3PT0iLCJkZXNjcmlwdGlvbiI6IlBHZ3pJSE4wZVd4bFBTSmpiMnh2Y2pwRVlYSnJVMnhoZEdWQ2JIVmxJajRnMEovUmdOQzQwTFhRdk5DOTBMRFJqeURRdXRDKzBMelF1TkdCMFlIUXVOR1BMaURRa05HRDBMVFF1TkdDMEw3UmdOQzQwWTg2SURJd010Q3dQQzlvTXo0PSIsImNvbG9yIjoiIzE4YjJhMiIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbODMuNzgyODk3LDUzLjM0NjkyNl19LCJpZCI6Mzk5NDd9XSwibWFwUG9zaXRpb24iOnsibGF0Ijo1My4zNDU1MTczMTU3MDYzOSwibG9uIjo4My43ODI1MTY3MzkzOTExNiwiem9vbSI6MTd9LCJpc1doZWVsWm9vbUVuYWJsZWQiOnRydWV9Jyk8L3NjcmlwdD48c2NyaXB0IGFzeW5jPSIiIHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbS9ndGFnL2pzP2lkPVVBLTE1ODg2NjE2OC0xIj48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+KGZ1bmN0aW9uKGUpe2Z1bmN0aW9uIHQoKXtkYXRhTGF5ZXIucHVzaChhcmd1bWVudHMpfXdpbmRvdy5kYXRhTGF5ZXI9d2luZG93LmRhdGFMYXllcnx8W10sdCgianMiLG5ldyBEYXRlKSx0KCJjb25maWciLGUpLHdpbmRvdy5ndGFnPXR9KSgnVUEtMTU4ODY2MTY4LTEnKTwvc2NyaXB0PjwvYm9keT4=")</script>
+
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div></div>
+      </main>
+      <footer class="t-Footer" id="t_Footer" role="contentinfo">
+        <div class="t-Footer-body">
+          <div class="t-Footer-content"><div class="container">
+<div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end" ><div id="R6308042992779328" class=""  ><div class="footer">
+    <div class="footer-container">
+        <img class="footer-logo"
+             src="/i/astu/pk/logo_altstu_white.png"
+             alt="Алтайский государственный технический университет им. И.И. Ползунова (АлтГТУ)"
+             title="Алтайский государственный технический университет им. И.И. Ползунова (АлтГТУ)"/> 
+        <p class="footer-text">&copy;&nbsp;2022&minus;2024 АлтГТУ им.&nbsp;И.И.&nbsp;Ползунова</p>
+    </div>
+    <div class="footer-container">
+        <p class="footer-text"><b>Наши ресурсы:</b></p>
+        <div class="footer-social-media">
+            <a target="_blank" href="https://www.altstu.ru/">
+                <img class="footer-social-media__img" src="/i/astu/pk/footer/altstu.png">
+            </a>
+            <a target="_blank" href="https://vk.com/altstu_official">
+                <img class="footer-social-media__img" src="/i/astu/pk/footer/vk.png">
+            </a>
+            <a target="_blank" href="https://rutube.ru/channel/24598229/">
+                <img class="footer-social-media__img" src="/i/astu/pk/footer/rutube.png">
+            </a>
+        </div>  
+    </div>
+    <div class="footer-container">
+        <p class="footer-text"><b>Поддержка сайта:</b></p>
+        <p class="footer-text"><a href="mailto:web@altgtu.ru" class="footer-link">web@altgtu.ru</a></p>    
+    </div>
+</div></div></div>
+</div>
+</div></div>
+          <div class="t-Footer-apex">
+            <div class="t-Footer-version">17.01.2025</div>
+            <div class="t-Footer-customize"></div>
+            
+          </div>
+        </div>
+        <div class="t-Footer-top">
+          <a href="#top" class="t-Footer-topButton" id="t_Footer_topButton" title="Начало страницы" aria-label="Начало страницы"><span class="a-Icon icon-up-chevron" aria-hidden="true"></span></a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<div class="t-Body-inlineDialogs" id="t_Body_inlineDialogs"></div><input type="hidden" id="pPageFormRegionChecksums" value="&#x5B;&#x5D;">
+<input type="hidden" id="pPageItemsRowVersion" value="" /><input type="hidden" id="pPageItemsProtected" value="UDBfVFJBQ0tJTkc6UDFfV0VMQ09NRV9URVhUOlAxX0NOVF9ET0xHOlAxX1BVQkxJ.,Q19LRVk6UDFfRF9BVFQ6UDFfSURfQVRUOlAxX0RfU0VTUzpQMV9JRF9TRVNTOlAx.,X0lEX1BSRURfQVRUOlAxX1BSRURfQVRUX05BTUU6UDFfSURfUFJFRF9BVFRfREFU.,TjpQMV9JRF9QUkVEX0FUVF9EQVRLOlAxX1VDSF9QT1JfRF9TOlAxX1VDSF9QT1Jf.,RF9FOlAxX1NFU1NfSVRfUjpQMV9BVFRTX0lUX1I6UDFfS1VSU0FDSA&#x2F;vGBz3SZkKRCTWdU067PJA0P8abpNmZaPVJecVYxa7JBuPIeq5PzY98VfqJP7Hq7CJA-LL7E_lcxpAdVx3tc6BQ" /></form>
+
+<script>
+( () => {const activeTabId = sessionStorage.getItem( "ORA_WWV_apex.apexTabs.1012.1.R125559589085525127.activeTab" );document.querySelector( activeTabId )?.classList.add( "apex-rds-element-selected" );})();
+</script>
+
+<script>
+var apex_img_dir = "\u002Fi22.2\u002F";
+var apex = {env: {APP_USER: "SASHA.LIPPA98@MAIL.RU",APP_ID: "1012",APP_PAGE_ID: "1",APP_SESSION: "7810146882781",APP_FILES: "r\u002Fastu\u002F1012\u002Ffiles\u002Fstatic\u002Fv3087\u002F",WORKSPACE_FILES: "r\u002Fastu\u002Ffiles\u002Fstatic\u002Fv1\u002F",APEX_VERSION: "22.2.0",APEX_BASE_VERSION: "22.2"},
+libVersions:{ckeditor5:"35.0.1",cropperJs:"1.5.12",domPurify:"2.3.8",fullcalendar:"5.11.2",hammer:"2.0.8",jquery:"3.6.0",jqueryUi:"1.13.2",maplibre:"2.1.9",markedJs:"4.0.17",prismJs:"1.28.0",oraclejet:"12.1.3",monacoEditor:"0.32.1",lessJs:"4.1.3"}};
+</script>
+<script src="/i22.2/libraries/apex/minified/desktop_all.min.js?v=22.2.0"></script>
+<script src="wwv_flow.js_messages?p_app_id=1012&p_lang=ru&p_version=22.2.0-18987188566"></script>
+
+<script type="text/javascript">
+apex.da.initDaEventList = function(){
+apex.da.gEventList = [
+{"triggeringElementType":"JAVASCRIPT_EXPRESSION","triggeringElement": function() {
+return (window
+); },"triggeringConditionType":"JAVASCRIPT_EXPRESSION","triggeringConditionExpression": function() {
+return (this.data.dialogPageId == "19"
+); },"bindType":"bind","executionType":"IMMEDIATE","bindEventType":"apexafterclosedialog","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,javascriptFunction:function (){ let l_cnt_click_read = parseInt(this.data.P19_CNT_CLICK_READ) || 0;
+let l_cnt_cur = parseInt($(".notification-item").find(".t-Button-label").text()) || 0;
+let l_result = l_cnt_cur - l_cnt_click_read;
+if (l_result <= 0) {
+    $(".notification-item").remove();
+} else {
+    $(".notification-item").find(".t-Button-label").text(l_result);
+}
+},"action":"NATIVE_JAVASCRIPT_CODE"}]},
+{"executionType":"IMMEDIATE","bindEventType":"ready","anyActionsFireOnInit":true,actionList:[{"eventResult":true,"executeOnPageInit":true,"stopExecutionOnError":true,javascriptFunction:function (){ $('.BTN-Container').each(function() {
+    if (!CSS.supports('selector(:has(div))')) {
+        $('.t-Body-contentInner').css("margin-top", "4rem");
+    }      
+})
+},"action":"NATIVE_JAVASCRIPT_CODE"}]}];
+}
+</script>
+
+<script src="/i22.2/themes/theme_42/22.2/js/theme42.min.js?v=22.2.0"></script>
+
+
+<script src="r/astu/files/static/v1/astu.min.js?session=7810146882781"></script>
+
+  
+
+
+<script src="/i22.2/libraries/apex/minified/widget.treeView.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/widget.apexTabs.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/widget.interactiveReport.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/widget.stickyTableHeader.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/widget.stickyWidget.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/widget.colorpicker.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/widget.datepicker.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/jquery-ui/1.13.2/ui/i18n/oracle/jquery.ui.datepicker-ru.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/widget.timepicker.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/widget.report.min.js?v=22.2.0"></script>
+
+
+<script src="/i22.2/libraries/oraclejet/12.1.3/js/libs/require/require.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/requirejs.jetConfig.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/jetCommonBundle.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/jetColorPickerBundle.min.js?v=22.2.0"></script>
+<script src="/i22.2/libraries/apex/minified/chartBundle.min.js?v=22.2.0"></script>
+<script type="text/javascript">
+apex.session.initTimeouts(300,{"idle_time_ms":3600000,"life_time_ms":28763000,"max_idle_time_ms":3600000},'\u002Fnodexx\u002Fw97\u002Fr\u002Fastu\u002Flk\u002Fhome','\u002Fnodexx\u002Fw97\u002Fr\u002Fastu\u002Flk\u002Fhome');
+apex.jQuery( function() {
+apex.page.init( this, function() {
+try {
+(function(){apex.jQuery('body').addClass('t-PageBody--leftNav');})();
+(function(){apex.widget.regionDisplaySelector("125559589085525127",{"useSlider":true,"mode":"standard"});})();
+(function(){apex.jQuery('#R431200570104976897_ir').interactiveReport({"regionId":"R431200570104976897","toolbar":false,"helpLink":"wwv_flow_utilities.show_ir_help?p_app_id=1012\u0026p_worksheet_id=431200695955976897\u0026p_lang=ru","download":false,"subscription":false,"pagination":false,"lazyLoading":false,"ajaxIdentifier":"UkVHSU9OIFRZUEV-fjQzMTIwMDU3MDEwNDk3Njg5Nw\u002FJau4n2npeN03wHPwDKXzTRXdY0bxQrbci_a_IYHp98oaIGqkiw1Mf_W17J9FUSfDRxVvBYth9TafVwkunyLgkg"});})();
+(function(){apex.widget.report.init("R414110372497951250","UkVHSU9OIFRZUEV-fjQxNDExMDM3MjQ5Nzk1MTI1MA\u002F6rC7oG_Fs8-2do65yDENM0Pjo_dkgeZMT2aeCDQsNVP7XJZAGn1BzlGYkjwOPzhJ-gzUXkpcHnon3Sas8x3rHw",{"lazyLoading":false,"internalRegionId":"414110372497951250"});})();
+(function(){apex.widget.report.init("R432483705598800879","UkVHSU9OIFRZUEV-fjQzMjQ4MzcwNTU5ODgwMDg3OQ\u002FkG7iAnlt_2jP9igvjkIL8Axi5_r03Ouo0ZOORMjDALOkTJHi799OJwGWi2-BLJYa7Tr6DKVqX9wMOHP_k9f_cw",{"lazyLoading":false,"internalRegionId":"432483705598800879"});})();
+} catch(e) {apex.debug.error(e)};
+apex.item.waitForDelayLoadItems().done(function() {
+try {
+(function(){apex.da.initDaEventList();
+apex.da.init();})();
+apex.theme42.initializePage.noSideCol();
+blok = document.querySelector('[aria-label="Report settings of debt"]')
+if (blok) {
+    blok.style.display = 'None'
+}
+
+apex.page.warnOnUnsavedChanges();
+} finally {
+apex.event.trigger(apex.gPageContext$,'apexreadyend');
+};
+});
+});
+});apex.pwa.init( { serviceWorkerPath:'\u002Fnodexx\u002Fw97\u002Fr\u002Fastu\u002Flk\u002Fsw.js?v=22.2.0-18987188566\u0026lang=ru' } );
+</script>
+
+</body>
+</html>
